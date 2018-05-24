@@ -262,3 +262,9 @@ __pycache__/
 
 *.vcxproj*
 *.sln
+
+# Xcode shiet
+*modern-opengl.xcodeproj*
+*/project.xcworkspace/*
+project.pbxproj
+

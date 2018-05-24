@@ -1,8 +1,8 @@
 #include <iostream>
+#define GLEW_STATIC
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include "Constants.hpp"
-
 
 
 int main() {
@@ -18,7 +18,7 @@ int main() {
 
 	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "Modern OpenGL", nullptr, nullptr);
 
-	int screenWidth = 0, screenHeight = 0;
+	int screenWidth, screenHeight;
 	
 	// Retina displays
 	glfwGetFramebufferSize(window, &screenHeight, &screenHeight);
