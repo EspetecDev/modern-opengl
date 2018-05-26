@@ -261,7 +261,6 @@ __pycache__/
 *.pyc
 
 *.vcxproj*
-*.sln
 
 # Xcode shiet
 *modern-opengl.xcodeproj*
